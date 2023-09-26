@@ -150,4 +150,4 @@ INCRES.fit(train_generator,
           epochs=1,
           callbacks=[callback]
           )
-INCRES.save('/content/INCRES_Chest_X_ray_3.h5')
+INCRES.save('InceptionResnet_Chest_X_ray.h5')
