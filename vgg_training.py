@@ -149,7 +149,7 @@ VGG.fit(train_generator,
           epochs=1,
           callbacks=[callback]
           )
-VGG.save('/content/VGG16_Chest_X_ray_3.h5')
+VGG.save('/content/VGG16_Chest_X_ray.h5')
 
 
 
