@@ -150,5 +150,5 @@ RESNET.fit(train_generator,
           epochs=1,
           callbacks=[callback]
           )
-RESNET.save('/content/RESNET_Chest_X_ray_3.h5')
+RESNET.save('/content/Resnet_Chest_X_ray.h5')
 
