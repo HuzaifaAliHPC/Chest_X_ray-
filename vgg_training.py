@@ -146,7 +146,7 @@ VGG.summary()
 callback = tf.keras.callbacks.EarlyStopping(monitor='loss', patience=3)
 VGG.fit(train_generator,
           steps_per_epoch=train_generator.samples/train_generator.batch_size,
-          epochs=1,
+          epochs=50,
           callbacks=[callback]
           )
 VGG.save('/content/VGG16_Chest_X_ray.h5')
